@@ -1,0 +1,11 @@
+document.addEventListener("DOMContentLoaded", function () {
+  const userName = document.getElementById("userName");
+  const addExpenseBtn = document.getElementById("addExpenseBtn");
+
+  // Simulação de nome de usuário
+  userName.textContent = "João";
+
+  addExpenseBtn.addEventListener("click", function () {
+    alert("Adicionar novo gasto");
+  });
+});
